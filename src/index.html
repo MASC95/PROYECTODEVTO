@@ -2,55 +2,138 @@
 <html lang="es">
 
 <head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="../stylesheet/styles.css">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Proyecto de prueba</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="../stylesheet/styles.css">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Proyecto de prueba</title>
+ 
+  
 </head>
 
 <body>
-    <header>
-        <nav>
-            <div class="icon">
-                <i></i>
+  <header>
+    <nav>
+
+     <!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top ">
+  <!-- Container wrapper -->
+  <div class="container-fluid">
+    <!-- Navbar brand -->
+      <div class="col-md-2 d-flex justify-content-center justify-content-md-flex-endb-3 mb-md-0">
+              <a href="#!" class="ms-md-2">
+                <img class="logo"
+                  src="https://dev-to-uploads.s3.amazonaws.com/uploads/logos/resized_logo_UQww2soKuUsjaOGNB38o.png"
+                  alt="DEV Community 👩&zwj;💻👨&zwj;💻   width: 50px; height: 40px;">
+              </a>
             </div>
-            <nav class="navbar bg-light">
-                <div class="container-fluid">
-                    <form class="d-flex" role="search">
-                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-success" type="submit">Search</button>
-                    </form>
+    <!-- Search form -->
+    <form class="input-group" style="width: 30%">
+      <input type="search" class="form-control" placeholder="Search..." aria-label="Search" />
+      <button class="btn btn-outline-secondary"
+      
+      <span class="input-group-text" id="addon-wrapping"><svg xmlns="http://www.w3.org/2000/svg" width="16"
+                      height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                      <path
+                        d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+                    </svg></span>
+      </button>
+    </form>
+    
+
+    <!-- Toggle button -->
+    <button class="navbar-toggler" type="button" data-mdb-toggle="collapse"
+      data-mdb-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+      aria-label="Toggle navigation">
+      <i class="fas fa-bars"></i>
+    </button>
+
+    <!-- Collapsible wrapper -->
+    
+      <!-- Left links -->
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0 d-flex justify-content-space-around">
+       <div class="col-md-7 d-flex justify-content-md-flex-end">
+        <button type="button" class="btn btn-outline-primary">Create Post</button>
+
+                <div class="bell">
+                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor" class="bi bi-bell" viewBox="0 0 16 16">
+                  <path d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2zM8 1.918l-.797.161A4.002 4.002 0 0 0 4 6c0 .628-.134 2.197-.459 3.742-.16.767-.376 1.566-.663 2.258h10.244c-.287-.692-.502-1.49-.663-2.258C12.134 8.197 12 6.628 12 6a4.002 4.002 0 0 0-3.203-3.92L8 1.917zM14.22 12c.223.447.481.801.78 1H1c.299-.199.557-.553.78-1C2.68 10.2 3 6.88 3 6c0-2.42 1.72-4.44 4.005-4.901a1 1 0 1 1 1.99 0A5.002 5.002 0 0 1 13 6c0 .88.32 4.2 1.22 6z"/>
+                </svg>
+              </div>
+                <div class="pprofile">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16" 00;  >
+                    <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+                    <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
+                  </svg>
                 </div>
-            </nav>
-            <nav class="navbar bg-light">
-                <form class="container-fluid justify-content-start">
-                  <button class="btn btn-outline-success me-2" type="button">Main button</button>
-              
-                </form>
-              </nav>
-              
 
 
-        </nav>
-    </header>
-    <div class="container">
-        <div class="row">
-            <aside>
+              </div>
+      <!-- Left links -->
+    
+    <!-- Collapsible wrapper -->
+  </div>
+  <!-- Container wrapper -->
+</nav>
 
-            </aside>
-            <main>
+  <div class="container row-md-4 ">
+    <div class="column-md-3">
+      
 
-            </main>
-            <aside>
-
-            </aside>
+      <aside>
+        
+          <div class="list-group-flush mt-5 col-md-4">
+          <a href="#" class="list-group-item ">🏠 Home </li>
+          <a href="#" class="list-group-item ">🗃️ Reading List</li>
+          <a href="#" class="list-group-item ">🎙️ Podcast</li>
+          <a href="#" class="list-group-item ">📽️ Videos</li>
+          <a href="#" class="list-group-item ">🏷️ Tags</li>
+          <a href="#" class="list-group-item ">💡 FAQ</li>
+          <a href="#" class="list-group-item ">🛍️ Forem Shop</li>
+          <a href="#" class="list-group-item ">♥️ Sponsors</li>
+          <a href="#" class="list-group-item "> About</li>
+          <a href="#" class="list-group-item ">📯 Contact</li>
+          <a href="#" class="list-group-item ">📖 Guides</li>
+          <a href="#" class="list-group-item ">🤔 Software Comparisons</li>
+          <a href="#" class="list-group-item "><b> Other </b></li>
+          <a href="#" class="list-group-item ">Sponsors</li>
+          <a href="#" class="list-group-item ">👍 Code of Conduct</li>
+          <a href="#" class="list-group-item ">🤓 Privacy Policy</li>
+          <a href="#" class="list-group-item ">👀 Terms of Use</li>
+          <a href="#" class="list-group-item ">Sponsors</li>
+          <a href="#" class="list-group-item "><b> My Tags </b></li>
+          <a href="#" class="list-group-item ">#android</li>
+          <a href="#" class="list-group-item ">#vscode</li>
+          <a href="#" class="list-group-item ">#ubuntu</li>
+          <a href="#" class="list-group-item ">#webassembly</li>
+            <a href="#" class="list-group-item ">
+            <div class="card" style="width: 18rem;">
+              <img src="..." class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text"><h6>Calling all early-career developers & coding mentors!</p>h6>
+                  <br>
+                  <p>Join CodeNewbie Community: a supportive space for coding newbies to connect & express themselves.</p>
+                <a href="#" class="btn btn-primary">Get into forum</a>
+              </div>
+            </div>
+          </li>
         </div>
-        <footer>
 
-        </footer>
+        </ul>
 
+      </aside>
+      <main>
+
+      </main>
+      <aside>
+
+      </aside>
+    </div>
+    <footer>
+
+    </footer>
+
+    
 
 </body>
