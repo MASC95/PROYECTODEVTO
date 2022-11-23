@@ -1,0 +1,41 @@
+body{
+   background-color: #f5f5f5;
+    main{
+        .main__header{ 
+            ul{
+                li{
+                    a{
+                        color: grey;
+                        #main__header--relevant{
+                            color: black;
+                        }
+                    }
+                }
+            }
+        }
+        .main__posts{
+         
+         .main__posts--repeat{
+            
+            #posts__repeat--pp{
+                padding-top: 14px;
+                img{
+                    height: 45px;
+                    border-radius: 50%;    
+                }
+                
+            }
+            #posts__repeat--body{
+                
+                h5{
+                    font-size: 16px;
+                }
+                h6{
+                    font-size: 13px;
+                    color: grey;
+                }
+            }
+         }
+        }
+    }
+}

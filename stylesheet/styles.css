@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @charset "UTF-8";
 * {
   margin: 0;
@@ -48,4 +49,10 @@
   margin-right: 3px;
   height: 100%;
   width: 80%;
+=======
+@import url(/stylesheet/main.css);
+* {
+  margin: 0;
+  padding: 0;
+>>>>>>> origin/main
 }/*# sourceMappingURL=styles.css.map */
