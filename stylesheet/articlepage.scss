@@ -1,0 +1,221 @@
+%displayCenter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+main {
+  .main__row--container {
+    background-color: #F5F5F5;
+    //aside icons
+    .aside__icons--container {
+      background-color: #F5F5F5;
+      .icon__container {
+        border: none;
+        height: 80px;
+        @extend %displayCenter;
+        background-color: #F5F5F5;
+      }
+      button.heart:hover {
+        fill: rgb(255, 0, 0);
+      }
+      button.comment:hover {
+        fill: rgb(5, 255, 17);
+      }button.save:hover {
+        fill: rgb(0, 38, 255);
+      }button.dots:hover {
+        fill: rgb(255, 153, 0);
+      }
+    }
+    // article section
+    .row__arcticle--container{
+      border: 1px solid #00000034;
+      background-color: #F5F5F5;
+      article{
+        width: 100%;
+        .article__content--container{
+          .content__title--container{
+            width: 90%;
+            h2{
+              font-weight: 800;
+            }
+            .content__title--hashtags{
+              ul{
+                li{
+                  list-style: none;
+                  margin-right: 15px;
+                  a{
+                    color: #000000;
+                    text-decoration: none;
+                    .span__topic--1{
+                      color: rgb(0, 60, 255);
+                    }
+                    .span__topic--2{
+                      color: rgb(0, 217, 255);
+                    }
+                    .span__topic--3{
+                      color: rgb(251, 0, 255);
+                    }
+                    .span__topic--4{
+                      color: rgb(255, 140, 0);
+                    }
+                  }
+                }
+              }
+            }
+          }
+          .content__information--container{
+            width: 90%;
+            padding: 10px;
+            h4{
+              font-weight: 700;
+            }
+          }
+          .content__create--comment{
+            width: 90%;
+            padding: 10px;
+            button{
+              height: 40px;
+              background-color: nav;
+              width: 14%;
+              border: 2px solid gray;
+              border-radius: 10px;
+              color: rgba(48, 48, 48, 0.639)
+            }
+            .comment__top--create{
+              @extend %displayCenter;
+              h2{
+                font-weight: 800;
+              }
+            }
+            .comment__bottom--create{
+              margin-top: 15px;
+              div{
+                width: 6%;
+                p{
+                  @extend %displayCenter;
+                  background-color: #000000;
+                  font-weight: 700;
+                  color: #F5F5F5;
+                  height: 40px;
+                  border-radius: 50%;
+                }
+              }
+              textarea{
+                width: 100%;
+                border-radius: 4px;
+                height: 100px;
+              }
+            }
+          }
+          .content__comments--container{
+            margin-top: 30px;
+            width: 90%;
+            padding: 10px;
+            border: 1px solid #00000034;
+            border-radius: 5px;
+          }
+        }
+        
+      }
+      .other__section{ 
+        width: 90%;
+        padding: 10px;
+        margin-top: 25px;
+        border: 1px solid #00000034;
+        border-radius: 5px;
+        h4{
+          a{
+            font-weight: 700;
+            text-decoration: none;
+          }      
+        }
+        p{
+          color: #00000094;
+          padding-left: 10px;
+        }
+      }
+      .other__similar--posts{
+        width: 90%;
+        margin-top: 30px;
+        h3{
+          font-weight: 700;
+        }
+        div{
+          p{
+            padding-right: 10px;
+          }
+          width: 90%;
+          h2{
+            font-weight: 700;
+          }
+          h2:hover{
+            color:#0052F6
+          }
+        }
+      }
+    }
+    // authors information aside
+    .aside__authors--content {
+      background-color: #F5F5F5;
+      .authors__information--container{
+        padding: 10px;
+        border: 1px solid #00000042;
+        background-color: white;
+        margin-top: 10px;
+        width: 95%;
+        height: 65vh;
+        .authors__top--container{
+          .info__container--img{
+            background-color: rgb(84, 84, 84);
+            width:40px;
+            height: 100%;
+            border-radius: 50%;
+          }
+        }
+        .author__follow--container{
+          margin-top: 10px;
+          height: 70px;
+          .author__follow--link{
+            width: 85%;
+            background-color: #0052f6;
+            height: 45px;
+            color: #F5F5F5;
+          }
+          .author__follow--link:hover{
+            background-color:  #0039aa;
+          }
+        }
+        .authors__container--font{
+          p{
+            font-size: 13px;
+          }
+          h5{
+            font-size: 17px;
+            font-weight: 600
+          }
+        }
+      }
+      .authors__articles--container{
+        width: 95%;
+        height: 50vh;
+        padding: 10px;
+        border: 1px solid #00000042;
+        background-color: white;
+        margin-top: 10px;
+        .authors__articles--name{
+          h4{
+            font-weight: 700;
+            span{
+              color: #0052F6;
+            }
+          }
+        }
+      }
+    }
+  }
+}
