@@ -53,6 +53,7 @@
 html {
   width: 100%;
   position: relative;
+  background: black;
 }
 
 body {
@@ -61,8 +62,16 @@ body {
   min-height: 100%;
 }
 
+.container {
+  background-color: rgb(246, 246, 246);
+}
+
 aside {
   background-color: rgb(246, 246, 246);
+}
+
+#aside__wal {
+  background-color: rgb(249, 249, 249) !important;
 }
 
 .sidebar__right .card {
