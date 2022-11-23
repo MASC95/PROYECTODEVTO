@@ -1,0 +1,25 @@
+.aside__icons--container .icon__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+main .main__row--container {
+  background-color: rgb(255, 0, 0);
+}
+
+.aside__icons--container {
+  background-color: #F5F5F5;
+}
+.aside__icons--container .icon__container {
+  border: none;
+  height: 80px;
+}
+.aside__icons--container button:hover {
+  fill: rgb(0, 255, 128);
+}/*# sourceMappingURL=articlepage.css.map */
