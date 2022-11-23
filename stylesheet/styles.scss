@@ -1,4 +1,5 @@
 
+
 $list-group-hover-bg: gray;
 *{
     margin: 0;
@@ -44,7 +45,7 @@ $list-group-hover-bg: gray;
     margin-top: 15px;
     margin-right: 3px;
     height: 100%;
-    width: 80%;
+
   }
 
 
@@ -54,14 +55,7 @@ $list-group-hover-bg: gray;
 $colorWhiteLow: rgb(246, 246, 246);
 $colorBlack: rgb(64, 64, 64);
 $colorWhite: rgb(250, 250, 250);
-* {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    border: 0;
-    outline:0;
-    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  }
+
 
 
 
@@ -87,6 +81,7 @@ $colorWhite: rgb(250, 250, 250);
   html {
     width: 100%;
     position: relative;
+   
   }
 
   body {
@@ -97,20 +92,13 @@ $colorWhite: rgb(250, 250, 250);
 
   }
 
-  .cont__all {
-    background-color: $colorWhiteLow;
-
-  }
  
-
-
-
-
-aside{
+aside {
     background-color: $colorWhiteLow;
 }
 
 .sidebar__right {
+  
     .card {
         background-color: $colorWhiteLow;
         margin: 10px;
@@ -153,6 +141,7 @@ aside{
 }
 
 .sidebar__right {
+  
     header {
         display: flex;
         text-align: center;

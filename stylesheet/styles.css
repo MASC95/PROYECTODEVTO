@@ -48,16 +48,6 @@
   margin-top: 15px;
   margin-right: 3px;
   height: 100%;
-  width: 80%;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  border: 0;
-  outline: 0;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
 html {
@@ -69,10 +59,6 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100%;
-}
-
-.cont__all {
-  background-color: rgb(246, 246, 246);
 }
 
 aside {
@@ -156,4 +142,6 @@ footer .footer-container {
 }
 footer .footer-container a {
   text-decoration: none;
-}/*# sourceMappingURL=styles.css.map */
+}
+
+/*# sourceMappingURL=styles.css.map */
